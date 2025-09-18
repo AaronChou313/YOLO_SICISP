@@ -14,6 +14,7 @@ Self-trained YOLOv11 model based on traffic graphics on campus for SICISP class 
 - [track_poly.py](file://c:\本学期学习资料（大三下）\空间智能计算与服务\空间智能计算与服务课程实习\test2\YOLO_SICISP\track_poly.py): 在目标跟踪基础上绘制轨迹。
 - `source_data/`: 存放课程提供的原始数据。
 - `results/`: 包含训练结果(`train_run`)、目标检测结果(`detect_run`)、目标跟踪结果(`track_run`)。
+- 注：由于source_data和results中文件过大，不适合上传github，故存放在个人云盘中，[点击下载](http://ug.link/ChampNas/filemgr/share-download/?id=9b3a75544d3043f8bd2ff9da24a77a45)
 
 ## 使用说明
 
@@ -69,4 +70,5 @@ python track_poly.py
 
 ## 注意事项
 - 确保所有依赖库已安装。
+
 - 根据实际需求调整脚本参数。
